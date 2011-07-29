@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'msql:host=localhost;dbname=exampledb'
+      username: root
+      password: examplepassword
